@@ -8,7 +8,7 @@ SubCategory,
 ProductID
 from
 {{ ref("Customer")}} As D
-left jon 
+left join 
 {{ ref("product") }} AS P
 on 
 D.ProductID =P.ProductID
