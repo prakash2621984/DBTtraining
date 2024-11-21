@@ -9,6 +9,6 @@ ProductID
 from
 {{ ref("Customer")}} As D
 left jon 
-{{ref("product")}} AS P
+{{ ref("product") }} AS P
 on 
 D.ProductID =P.ProductID
