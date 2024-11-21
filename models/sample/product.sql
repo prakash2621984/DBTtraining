@@ -4,4 +4,4 @@
     )
 }}
 
-select * from raw.GLOBAL_MART.product
+select * from raw.GLOBAL_MART.orders
