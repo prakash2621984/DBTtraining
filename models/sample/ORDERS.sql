@@ -3,4 +3,4 @@
         materialized='table'
     )
 }}
-SELECT * FROM RAW.GLOBAL_MART.CUSTOMER
+SELECT * FROM RAW.GLOBAL_MART.ORDERS
