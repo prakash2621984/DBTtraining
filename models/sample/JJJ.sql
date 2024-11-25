@@ -8,4 +8,8 @@ CATEGORY,
 PRODUCTNAME,
 SUBCATEGORY
 FROM
-{{ ref('multi.sql') }} 
+{{ ref('ORDERS') }} AS O
+LEFT JOIN
+{{ ref('PRODUCT') }} AS P
+ON
+P.PRODUCTID=O.PRODUCTID
