@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: globalmart
+    database: DBT_DB
+    schema: DBT_PNALLUSWAMY
+    tables:
+      - name: PRODUCT
+
+      - name: ORDERS
+
+      - name: CUSTOMER
