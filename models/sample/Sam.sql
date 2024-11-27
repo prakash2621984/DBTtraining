@@ -1,1 +1,1 @@
-select * From DBT_DB.DBT_PNALLUSWAMY.CUSTOMER
+select * From {{ source('globalmart', 'CUSTOMER') }}
