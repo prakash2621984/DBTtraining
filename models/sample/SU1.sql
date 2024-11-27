@@ -1,0 +1,10 @@
+Select 
+ORDERDATE,
+SHIPDATE,
+SUM(ORDERID)
+FROM
+{{ ref('Multi') }}
+group by 
+ORDERID
+,ORDERDATE
+,SHIPDATE
